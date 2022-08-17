@@ -21,4 +21,5 @@ Pystan2 is being used to simulate the code.
 
 Temperature for all the four site is available at an hour interval. Mean daily temperature is calculated for each day. Using mean daily temperature one has to calculate EIP using thermodynamic model due to Briére equation for each day. Take mean of per day EIP values to get EIP per month.
 
-The code provided here is for the Anusuya (2000 m) for the month of May. One can simulate the code for other site and malaria parasite as well as for other months of the year as mentioned in the main text by using temperature data and Briére equation for the respective site and malaria parasites.
+The code provided here is for the site of Anusuya (2000 m) for the month of May. One can simulate the code for other site and malaria parasite as well as for other months of the year as mentioned in the main text by using temperature data and Briére equation for the respective site and malaria parasites.
+Also, For different months one has to change the value of  # initial_counter.
