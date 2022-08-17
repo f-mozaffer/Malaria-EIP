@@ -7,9 +7,10 @@ PDR (T) = c * T * (T – Tmin) * √ (Tmax – T)
 
 The above thermodynamic model has three unknown parameters namely
 
-Maximum temperature (Tmax)
-Minimum temperature (Tmin)
-Scaling parameter (c)
+- Maximum temperature (Tmax)
+- Minimum temperature (Tmin)
+- Scaling parameter (c)
+
 To estimate these unknown parameter values we have used STAN (https://mc-stan.org/), a platform for statistical modelling and high-performance statistical computation. STAN performs Bayesian statistical inference with Markov Chain Monte Carlo (MCMC) sampling.
 
 One can estimate unknown parameter for all the malaria parasites listed in the paper by using data for parasite development rate against temperature and prior values provided in the paper.
