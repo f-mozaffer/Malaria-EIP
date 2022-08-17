@@ -3,7 +3,7 @@ The rate of malaria parasite transmission and intensity of infection is strongly
 
 PDR (T) = c * T * (T – Tmin) * √ (Tmax – T)
 
-##Parameter estimation using STAN
+## Parameter estimation using STAN
 
 The above thermodynamic model has three unknown parameters namely
 
@@ -16,7 +16,7 @@ One can estimate unknown parameter for all the malaria parasites listed in the p
 
 Pystan2 is being used to simulate the code.
 
-##EIP calculation using mean temperature
+## EIP calculation using mean temperature
 
 Temperature for all the four site is available at an hour interval. Mean daily temperature is calculated for each day. Using mean daily temperature one has to calculate EIP using thermodynamic model due to Briére equation for each day. Take mean of per day EIP values to get EIP per month.
 
